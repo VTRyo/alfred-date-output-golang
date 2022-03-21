@@ -27,11 +27,11 @@ func main() {
 	args := os.Args[1]
 
 	switch args {
-	case "tod":
+	case "today":
 		today()
-	case "tom":
+	case "tomorrow":
 		tomorrow()
-	case "yes":
+	case "yesterday":
 		yesterday()
 	}
 }
